@@ -1,0 +1,130 @@
+body{
+	background-color: darkslateblue;
+}
+.contenedor{
+	background-color: rgb(228,228,228);
+	
+}
+header{
+	background-color: darkgrey;
+	
+}
+nav{
+	background-color:darkseagreen;
+}
+
+section{
+	background-color:white;
+	
+	
+}
+
+footer{
+	background-color:yellowgreen;
+	
+}
+
+.border1{
+	border-style:dotted;
+}
+
+.border2{
+	border-style:dashed;
+}
+
+.border3{
+	border-style:solid;
+}
+
+.border4{
+	border-style:double;
+}
+
+.border5{
+	border-style:groove;
+}
+
+.border6{
+	border-style:ridge;
+}
+
+.border7{
+	border-style:inset;
+}
+.border8{
+	border-style:outset;
+}
+
+.border9{
+	border-style:none;
+}
+
+.border10{
+	border-style:hidden;
+}
+
+.border11{
+	border-style:dotted dashed solid double;
+}
+
+.border12{
+	border-style:dotted ;
+	border-width:10px;
+}
+
+.border13{
+	border-style:dashed ;
+}
+
+
+.border14{
+	border-style:solid ;
+	border-width:10px 15px 4px 15px;
+}
+
+.border15{
+	border-style:solid ;
+	border-color:deeppink;
+}
+
+.border16{
+	border-style:dashed ;
+	border-color:deeppink rebeccapurple blue yellowgreen;
+}
+
+.border17{
+	border-top-style:dashed ;
+	
+}
+
+.border18{
+	border-bottom-style:dotted ;
+
+}
+
+.border19{
+	border-left-style:solid;
+
+}
+
+.border20{
+	border-right-style:double ;
+
+}
+
+
+
+.border21{
+	border-style:double ;
+	border-width:medium;
+	border-radius:5px;
+	
+
+}
+
+
+.border22{
+	border-style:double ;
+	border-width:20px;
+	border-radius:15px
+}

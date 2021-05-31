@@ -1,0 +1,131 @@
+/*es es un comentario en CSS*/
+/*Aplicaremos un estilo para darle un color de fondo a la pagina*/
+
+body{
+	
+	background-color:silver;
+}
+
+#contenedor{
+	
+	background-color:black;
+}
+#cabecera{
+background-color:blue;
+}
+#menu{
+	background-color:cadetblue;
+	
+}
+#cuerpo{
+	background-color:blueviolet;
+}
+#pie{
+	background-color:coral;
+}
+#parrafoimagen{
+	background-image: url("/img/foto1.jpg");
+}
+.parrafotransparencia{
+background-color:black;
+opacity:75%;
+color:white;	
+}
+
+#parrafoimagenrepetir{
+	background-image: url("/img/html5ycss3.png");
+}
+
+#parrafoimagennorepetir {
+  background-image: url("/img/html5ycss3.png");
+  background-repeat: no-repeat;
+}
+
+#parrafoimagentamaño {
+  background-image: url("/img/html5ycss3.png");
+  background-size: 30px;
+}
+
+#parrafoimagenrepetirhorizontal {
+  background-image: url("/img/html5ycss3.png");
+  background-repeat: repeat-x;
+  background-size: 30px;
+}
+
+#parrafoimagenrepetirvertical {
+  background-image: url("/img/html5ycss3.png");
+  background-repeat: repeat-y;
+  background-size: 30px;
+}
+
+#parrafoimagencentrar {
+  background-image: url("/img/html5ycss3.png");
+  background-repeat: center;
+    background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+#parrafoimagenizquierda {
+  background-image: url("/img/html5ycss3.png");
+  background-repeat: left;
+    background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+#parrafoimagenderecha {
+  background-image: url("/img/html5ycss3.png");
+  background-repeat: right;
+    background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+#parrafoimagensuperior {
+  background-image: url("/img/html5ycss3.png");
+  background-repeat: top;
+    background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+#parrafoimageninferior {
+  background-image: url("/img/html5ycss3.png");
+  background-repeat: bottom;
+    background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+
+#parrafoimagensuperiorderecho {
+  background-image: url("/img/html5ycss3.png");
+  background-repeat:top right;
+    background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+#parrafoimagensuperioizquieda {
+  background-image: url("/img/html5ycss3.png");
+  background-repeat: bottom left;
+    background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
