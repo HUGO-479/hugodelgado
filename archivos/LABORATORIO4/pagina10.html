@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+    
+
+    
+    
+    var sb=0; bon=0 , des=0 , sf=0, cat="";
+
+    sb=parseFloat(prompt("Ingresa el sueldo basico del trabajador"));
+    cat=prompt("Ingrese la categoria: [a] o [b] o [c]");
+    
+    switch(cat.toLowerCase){
+        case "a":
+            bon=sb*0.07;
+            des=sb*0.05;
+        break;
+        case "b":
+            bon=sb*0.09;
+            des=sb*0.07;
+        break;
+        case "c":
+        bon=sb*0.11;
+        des=sb*0.09;
+        break;
+
+    }
+    
+    sf=sb+bon-des;
+    
+    
+    
+alert("El sueldo basico es:"+sb);
+alert("La bonificación es:"+bon);
+alert("El descuento es:"+des);
+alert("El sueldo final es:"+sf)
+
+    
+    
+var pre=0, can=0 , sbt=0, des=0, tot=0, cat=0;
+
+
+pre=parseFloat(prompt("Ingrese el precio del producto:"));
+can=parseFloat(prompt("Ingrese la cantidad a comprar:"));
+com=prompt("Ingrese el tipo de comprobante: [f]factura o [b] boleta");  
+    
+sbt=pre*can;
+
+switch(cat){
+    case 1:
+        des=sbt*0.03;
+        break;
+        case 2:
+            des=sbt*0.05;
+            break;
+            case 3:
+                des=sbt*0.07;
+                break
+                case 4:
+                    des=sb*0.09;
+                    break;
+                    default:
+                        des=0;
+                        break;
+}
+tot=sbt-des;
+
+document.write("El subtotal es:"+sbt+"<br>");
+document.write("El descuento es:"+des+"<br>");
+document.write("El total es:"+tot+"<br>");
+document.write("<hr>");
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </script>
+</head>
+<body>
+    
+
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Parte 2</title>
+<script type="text/javascript">
+//Lectura de datos 
+//Consiste en obtener valores que se van asignar a las variables desde el teclado, 
+//esto quiere decir que los usuarios van asignar los valores correspondientes de 
+//Sintaxis
+//prompt("Mensaje")
+//Todo valor que se ingresa dentro del prompt se convierte automaticamente en un tipo
+//de dato texto, por lo cual se realice el ingreso de valores numericos se
+//tiene que realizar una conversion 
+//conversion de datos de texto a numero entero
+//parseint("mensaje")
+//conversion de datos de texto a numero real
+    
+    var numero1;
+	var numero_2;
+	var suma;
+	
+	
+	
+	numero1= 0;
+	numero_2=0;
+	suma=0;
+	
+	
+	numero1=parseInt(prompt("Ingrese el numero 1:"));
+	numero_2=parseInt(prompt("Ingrese el numero 2:"));
+	suma=numero1+numero_2;
+	alert("La suma es: "+suma);
+	document.write('La suma es:' +suma+'<br>');
+    document.write('<hr>');
+
+
+    var n1;
+	var n2;
+	var n3;
+	var n4;
+	var prom;
+	
+	n1=0;
+	n2=0;
+	n3=0;
+	n4=0;
+	prom=0;
+	
+	
+	n1=parseFloat(prompt("Inrese la nota 1:"));
+	n2=parseFloat(prompt("Inrese la nota 2:"));
+	n3=parseFloat(prompt("Inrese la nota 3:"));
+	n4=parseFloat(prompt("Inrese la nota 4:"));
+	prom=(n1+n2+n3+n4)/4;
+	
+	
+	alert('El promedio final es:'+prom);
+	document.write('El promedio final es:' +prom+ '<br>');
+    document.write('<hr>');
+
+	//Desarrollar una aplicacion que perimita mostrar el nombre ingresado"
+	//Cuantas variables necesito?
+	//nom
+	//Que tipo de datos necesito?
+	//texto
+	//definiendo variables
+	var nom;
+	//Inicializando varibles
+	nom="";
+	//asignando valores;
+	nom =prompt("Ingrese su nombre");
+	
+	alert("Hola como estas " +nom);
+	document.write('Hola como estas '+nom);
+	document.write('<hr>');
+
+
+    var sb;
+	var bon;
+	var des;
+	var sf;
+	
+	
+	
+	sb=0;
+	bon=0;
+	des=0;
+	sf=0;
+	
+	sb=parseFloat(prompt("Ingresa el sueldo basico"));
+	
+	bon= sb*0.07;
+	des=sb+0.04;
+	sf=sb+bon-des;
+	
+	 
+	//mostrando resultads
+	
+	alert("El resultado basico:"+sb);
+	alert("La bonificacion es:"+bon);
+	alert("El descuento es:" +des);
+	alert("El sueldo final es:" +sf);
+	
+	document.write("El sueldo basico es:"+sb+"<br>");
+	document.write("La bonificacion es:"+bon+"<br>");
+	document.write("El descuento es:"+des+"<br>");
+	document.write("El documento es:"+sf+"<br>");
+    
+
+    var pre=0;
+	var can=0;
+	var sbt=0;
+	var igv=0;
+	var tot=0;
+	
+	can=parseInt(prompt("Ingrese la cantidad a comprar:"));
+	pre=parseFloat(prompt("Ingrese el precio del producto"));
+	
+	sbt=pre*can;
+	igv=sbt*0.18;
+	tot=sbt+igv;
+	
+	alert("El resultado es:"+sbt);
+	alert("El igv es:"+igv);
+	alert("El total es:"+tot);
+	document.write("El tutorial es: "+sbt+"<br>");
+	document.write("El igv es: "+igv+"<br>");
+	document.write("El total es: "+tot+"<br>");
+    document.write("<hr>")
+
+
+    //desarrollar una aplicacion que permita ingresar el numero de horas trabajadas
+    //un empleado , si se sabe que tiene un costo por cada hora trabajada y se te pide
+    //calcular el sueldo final, si adicional se le calcula una bonificacion del 6%
+   // y un descuento del 3%. Mostrar todos los resultados
+    //Cuantas variables necesito?
+
+
+    //Que tipos de datos necesito?
+
+
+
+
+
+
+</script>
+</head>
+<body>
+
+
+
+</body>
+</html>

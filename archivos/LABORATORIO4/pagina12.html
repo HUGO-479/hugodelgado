@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+    function CalculaSuma(num1,num2){
+        return num1+num2;
+    }
+
+    function CalculaResta(num1,num2){
+        return num1-num2;
+    }
+
+    function CaclculaMultiplicacion(num1,num2){
+        return num1*num2;
+    }
+    function CaclculaDivision(num1,num2){
+        return num1/num2
+    }
+
+    var n1=0 , n2=0, sum=0 , res=0 , mul= 0 , div=0;
+    
+    n1=parseFloat(prompt("Ingrese el numero 1:"));
+    n2=parseFloat(prompt("Ingresa el numero 2:"));
+
+
+    sum=CalculaSuma(n1,n2);
+    res=CalculaResta(n1,n2);
+    mul=CaclculaMultiplicacion(n1,n2);
+    div=CaclculaDivision(n1,n2);
+
+
+    document.write("La suma es:"+sum+"<br>");
+    document.write("La resta es:"+res+"<br>");
+    document.write("La multiplicacion es:"+mul+"<br>");
+    document.write("La division es:"+div+"<br>");
+    document.write("<hr>");
+    document.write("<hr>");
+        </script>
+</head>
+<body>
+    
+</body>
+</html>

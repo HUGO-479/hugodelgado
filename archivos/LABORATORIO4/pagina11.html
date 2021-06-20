@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+
+
+//Desarrollar una aplicacion que te permita ingresar un nombre y luego
+//mostrar un saludo 5 veces
+//definiedo e inicializando variables
+
+var nom="" , cont=0;
+
+//capturando valores
+
+nom=prompt("Ingrese su nombre");
+
+while(cont<5){
+    document.write("Hola como estas "+nom+"<br>");
+    cont++;
+}
+
+document.write("<hr>");
+cont=0;
+
+do{
+    document.write("Hola como estas "+nom+"<br>");
+    cont++;
+}while(cont<5);
+    document.write("<hr>");
+
+for(cont=0;cont<5;cont++){
+    document.write("Hola como estas "+nom+"<br>");
+
+}
+
+document.write("<hr>");
+document.write("<hr>");
+
+
+
+
+var cont=0 , can=0;
+
+can= parseInt(prompt("Ingrese la cantidad de numeros"));
+
+while(cont<can){
+    document.write(cont+"<br>");
+    cont++;
+}
+document.write("<hr>")
+cont=0;
+do{
+    document.write(cont+"<br>");
+    cont++;
+}while(cont<can);
+document.write("<hr>");
+
+for(cont=0;contcan;cont++){
+        docuemnt.write(cont+"<br>");
+}
+
+    document.write("<hr>");
+    document.write("<hr>");
+
+
+
+var cont=0 , can=0 , sum=0;
+
+can=parseInt(prompt("Ingrese la cantidad de numeros"));
+
+while(cont<can){
+    document.write(cont+"<br>");
+    sum=sum+cont;
+    cont++;
+}
+document.write("La suma es: "+sum+"<br>");
+document.write("<hr>");
+
+cont=0;
+sum=0;
+
+do{
+    document.write(cont+"<br>");
+    sum=sum+cont;
+    cont++;
+
+}while(cont<can);
+document.write("La suma es: "+sum+"<br>");
+document.write("<hr>")
+
+sum=0;
+for(cont=0;cont<can;cont++){
+    document.write(cont+"<br>");
+    sum=sum+cont;
+}
+
+document.write("La suma es:" +sum+ "<br>");
+document.write("<hr>");
+document.write("<hr>");
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
