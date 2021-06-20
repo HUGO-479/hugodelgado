@@ -35,3 +35,9 @@ li a:hover:not(.activo) {
   background-color:#8F4D24;
   color: white;
 }
+.contenedor{
+  width: 200px;
+  height: auto;
+  margin: auto;
+  margin-bottom: 10%;
+}
