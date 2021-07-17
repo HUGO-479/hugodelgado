@@ -9,7 +9,7 @@ ul {
   padding: 0;
   width: 15%;
   background-color: gainsboro;
-  position: center;
+  position: static;
   overflow: auto;
   border: 1px solid #555;
 }
