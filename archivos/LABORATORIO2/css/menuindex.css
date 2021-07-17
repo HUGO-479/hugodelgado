@@ -1,15 +1,15 @@
 body {
-  width: 100%;
   margin: 0;
-  height: 100%;
+  background-color: #332B8F;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 150px;
+  width: 15%;
   background-color: gainsboro;
+  position: static;
   overflow: auto;
   border: 1px solid #555;
 }
@@ -27,11 +27,21 @@ li a {
 }
 
 li a.activo {
-  background-color: green;
+  background-color: #DB6224;
   color: white;
 }
 
 li a:hover:not(.activo) {
-  background-color: #555;
+  background-color:#8F4D24;
   color: white;
+}
+.contenedor{
+  width: 200px;
+  height: auto;
+  margin: auto;
+  margin-bottom: 10%;
+}
+
+h1{
+text-align: center;
 }
