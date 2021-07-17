@@ -7,7 +7,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 20%;
+  width: 15%;
   background-color: gainsboro;
   position: static;
   overflow: auto;
@@ -33,18 +33,6 @@ li a.activo {
 
 li a:hover:not(.activo) {
   background-color:#8F4D24;
-  color: white;
-}
-.contenedor{
-  width: 200px;
-  height: auto;
-  margin: auto;
-  margin-bottom: 10%;
-}
-
-h1{
-text-align: center;
-}
   color: white;
 }
 .contenedor{
