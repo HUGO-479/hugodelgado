@@ -45,3 +45,15 @@ li a:hover:not(.activo) {
 h1{
 text-align: center;
 }
+  color: white;
+}
+.contenedor{
+  width: 200px;
+  height: auto;
+  margin: auto;
+  margin-bottom: 10%;
+}
+
+h1{
+text-align: center;
+}
