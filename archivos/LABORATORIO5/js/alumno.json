@@ -1,0 +1,18 @@
+[
+    {
+        "nombre":"Hugo Henry",
+        "apellido":"Delgado Martell",
+        "dni":"75186021",
+        "curso":"1",
+        "turno":"mañana",
+        "estado":"habilitado"
+    },
+    {
+        "nombre":"Juan Henry",
+        "apellido":"Carbajal Martell",
+        "dni":"75186021",
+        "curso":"2",
+        "turno":"tarde",
+        "estado":"habilitado"
+    }
+    ]
