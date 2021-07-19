@@ -4,53 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilo13.css">
     <title>Document</title>
 </head>
 <body>
+    <section class="registro">
     <form action="">
-    <input type="hidden" name="txtCod" id="txtCod" >
+    <input class="control" type="hidden" name="txtCod" id="txtCod" >
     <label for="txtNom">Nombres:</label>
-    <input type="text" id="txtNom" name="txtNom" placeholder="Ingrese sus nombres">
+    <input class="control" type="text" id="txtNom" name="txtNom" placeholder="Ingrese sus nombres">
     <br>
     <label for="txtApe">Apellidos:</label>
-    <input type="text" id="txtApe" name="txtApe" placeholder="Ingrese sus apeliidos">
+    <input class="control" type="text" id="txtApe" name="txtApe" placeholder="Ingrese sus apeliidos">
     <br>
     <label for="txtDni">Dni:</label>
-    <input type="text" id="txtDni" name="txtDni" placeholder="Ingresar su Dni">
+    <input class="control" type="text" id="txtDni" name="txtDni" placeholder="Ingresar su Dni">
     <br>
     <label for="txtFec">Fecha de nacimiento:</label>
-    <input type="date" id="txtFec" name="txtFec">
+    <input class="control" type="date" id="txtFec" name="txtFec">
     <br>
     <label for="txtDir">Direccion:</label>
-    <input type="text" id="txtDir" name="txtDir" placeholder="Ingrese su direccion">
+    <input class="control" type="text" id="txtDir" name="txtDir" placeholder="Ingrese su direccion">
     <br>
     <label for="cboDistrito">Distrito:</label>
-    <select type="cboDistrito" id="cboDistrito"> 
+    <select class="boton" type="cboDistrito" id="cboDistrito"> 
     <option value="0">Seleccione un distrito</option>
     </select>
     <br>
     <label for="txtTel">Telefono:</label>
-    <input type="text" id="txtTel" name="txtTel" placeholder="Ingrese su telefono">
+    <input class="control" type="text" id="txtTel" name="txtTel" placeholder="Ingrese su telefono">
     <br>
     <label for="txtCel">Celular:</label>
-    <input type="text" id="txtCel" name="txtCel" name="txtCel" placeholder="Ingrese su celular">
+    <input class="control" type="text" id="txtCel" name="txtCel" name="txtCel" placeholder="Ingrese su celular">
     <br>
     <label for="txtCor">Correo:</label>
-    <input type="text" id="txtCor" name="txtCor" placeholder="Ingrese su correo">
+    <input class="control" type="text" id="txtCor" name="txtCor" placeholder="Ingrese su correo">
     <br>
     <label for="">Sexo:</label>
-    <input type="radio" name="sexo" id="rbMas"><label for="rbMas">Masculino</label>
-    <input type="radio" name="sexo" id="rbFem"><label for="rbFem">Femenino</label>
-    <input type="radio" name="sexo" id="rbOtr"><label for="rbOtr">Otro</label>
+    <input  type="radio" name="sexo" id="rbMas"><label for="rbMas">Masculino</label>
+    <input  type="radio" name="sexo" id="rbFem"><label for="rbFem">Femenino</label>
+    <input  type="radio" name="sexo" id="rbOtr"><label for="rbOtr">Otro</label>
     <br>
     <label for="">Estado:</label>
     <input type="checkbox" name="chkEst" id="chkEst"><label for="chkEst">Habilitado</label>
     <br>
-    <input type="button" value="Registrar" id="btnRegistrar" name="btnRegistrar">
-    <input type="button" value="Actualizar" id="btnActualizar" name="btnActualizar">
-</form>
-
-    <table id="tbAlumno">
+    <input class="boton" type="button" value="Registrar" id="btnRegistrar" name="btnRegistrar">
+    <input class="boton" type="button" value="Actualizar" id="btnActualizar" name="btnActualizar">
+    </form>
+    </section>
+    <table id="tbAlumno" class="tabla">
         <thead>
             <th>Nombres</th>
             <th>Apellidos</th>

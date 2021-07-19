@@ -4,25 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilo1.css">
     <title>Firebase - Parte 1</title>
 </head>
 <body>
-
+    <section class="registro">
     <form action="">
         <h1>Registro de Datos</h1>
         <label for="txtNom">Nombres:</label>
-        <input type="text" id="txtNom" name="txtNom" placeholder="Ingrese su nombre">
+        <input class="control" type="text" id="txtNom" name="txtNom" placeholder="Ingrese su nombre">
         <br>
         <label for="txtApe">Apellidos:</label>
-        <input type="text" id=txtApe name="txtApe" placeholder="Ingrese su apellido">
+        <input class="control" type="text" id=txtApe name="txtApe" placeholder="Ingrese su apellido">
         <br>
         <label for="txtCor">Correo</label>
-        <input type="text" id="txtCor" name="txtCor" placeholder="Ingrese su correo">
+        <input class="control" type="text" id="txtCor" name="txtCor" placeholder="Ingrese su correo">
         <br>
-        <input type="button" value="Registrar" id="btnRegistrar" name="btnRegistrar">
+        <input class="boton" type="button" value="Registrar" id="btnRegistrar" name="btnRegistrar">
     </form>
-    <hr>
-<table id="tbRegistro">
+    </section>
+
+<table id="tbRegistro" class="tabla">
     <thead>
         <th>Nombres</th>
         <th>Apellidos</th>
